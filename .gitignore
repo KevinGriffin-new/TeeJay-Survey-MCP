@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Coursework / course-derived fixtures and runtime traces (kept private)
+fixtures/
+traces/
+*.MSJ/
+

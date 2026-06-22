@@ -1,0 +1,16 @@
+[project]
+name = "mscad-mcp"
+version = "0.1.0"
+description = "MCP server for MicroSurvey CAD 2024"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "pythonnet>=3.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
